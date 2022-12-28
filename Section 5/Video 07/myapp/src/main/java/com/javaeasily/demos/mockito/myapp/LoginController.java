@@ -1,5 +1,6 @@
 package com.javaeasily.demos.mockito.myapp;
 
+// Web Layer
 public class LoginController {
 
     private AuthenticationService authenticationService;
