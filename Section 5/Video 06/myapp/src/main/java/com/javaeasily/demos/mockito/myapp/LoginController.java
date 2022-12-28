@@ -5,6 +5,7 @@ public class LoginController {
     public String service(String username, String password) {
         // send to: /home
         // send to: /login
+        return "";
     }
 
 }
