@@ -1,4 +1,4 @@
-package com.javaeasily.demos.mockito.myapp.web;
+package com.javaeasily.demos.mockito.myapp.web; // aka Web or presentation layer
 
 import com.javaeasily.demos.mockito.myapp.service.AuthenticationService;
 

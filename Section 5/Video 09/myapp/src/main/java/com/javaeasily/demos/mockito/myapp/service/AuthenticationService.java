@@ -1,4 +1,4 @@
-package com.javaeasily.demos.mockito.myapp.service;
+package com.javaeasily.demos.mockito.myapp.service;   // aka Business or Service layer
 
 import com.javaeasily.demos.mockito.myapp.User;
 import com.javaeasily.demos.mockito.myapp.data.UserRepository;
