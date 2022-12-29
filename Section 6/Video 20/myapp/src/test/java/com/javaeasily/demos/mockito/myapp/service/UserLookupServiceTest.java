@@ -2,8 +2,8 @@ package com.javaeasily.demos.mockito.myapp.service;
 
 import com.javaeasily.demos.mockito.myapp.User;
 import com.javaeasily.demos.mockito.myapp.data.UserRepository;
-import org.hamcrest.collection.IsIterableContainingInAnyOrder;
-import org.junit.Assert;
+//import org.hamcrest.collection.IsIterableContainingInAnyOrder;
+//import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -78,7 +78,8 @@ public class UserLookupServiceTest {
         assertEquals(actualUsers.size(), 2);
 
         assertThat(actualUsers, containsInAnyOrder(
-            equalTo(User.createRegularUser("anne", "abc123"))
+            equalTo(User.createRegularUser("anne", "abc123")),
+            equalTo(User.createRegularUser("donald", "dbc321"))
         ));
 
 //        // check user 1
