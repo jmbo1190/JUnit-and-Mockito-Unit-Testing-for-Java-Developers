@@ -19,13 +19,15 @@ public class AuthenticationServiceTest {
 
     @Test
     public void testAuthenticate() {
-        // arrange
+        // arrange - we want to test how AuthenticationService class will behave
+        //           in case it receives an exception when accessing the repository
+        //           (exceptions have not been handled so we can except the application to crash)
         Mockito.when(this.repository.findByUsername(Mockito.anyString())).thenThrow(new IllegalArgumentException());
 
         // act
         this.service.authenticate("harry", "harry12345");
 
-        // assert
+        // assert - we won't even reach that section
     }
 
 }
