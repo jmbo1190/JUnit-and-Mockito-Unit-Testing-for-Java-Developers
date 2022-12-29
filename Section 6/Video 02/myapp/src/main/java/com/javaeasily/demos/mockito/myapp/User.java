@@ -38,6 +38,7 @@ public class User {
         return userType;
     }
 
+    // need to re-generate `equals` and `hashCode` everytime we change the User class
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
