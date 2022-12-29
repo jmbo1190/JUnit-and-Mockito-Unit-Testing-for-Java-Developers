@@ -2,8 +2,8 @@ package com.javaeasily.demos.mockito.myapp.service;
 
 import com.javaeasily.demos.mockito.myapp.User;
 import com.javaeasily.demos.mockito.myapp.data.UserRepository;
-import org.hamcrest.collection.IsIterableContainingInAnyOrder;
-import org.junit.Assert;
+//import org.hamcrest.collection.IsIterableContainingInAnyOrder;
+//import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
